@@ -1,2 +1,23 @@
 cd path/to/your/project
 git init
+git remote add origin https://github.com/nappa1222/my-first-repo.git
+git branch -M main
+git push -u origin main
+# Go to your project folder
+cd path/to/your/project
+
+# Initialize git
+git init
+
+# Add all files
+git add .
+
+# Commit
+git commit -m "Initial commit"
+
+# Add remote (HTTPS example)
+git remote add origin https://github.com/YOUR-USERNAME/my-new-repo.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
